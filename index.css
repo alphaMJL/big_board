@@ -1,0 +1,126 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image: linear-gradient(
+    to right,
+    #d5d4d0 0%,
+    #d5d4d0 1%,
+    #eeeeec 31%,
+    #efeeec 75%,
+    #e9e9e7 100%
+  );
+  font-family: "Oswald", sans-serif;
+}
+
+#main-board {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 2.5rem;
+  width: 18rem;
+  font-weight: bold;
+  font-size: 21px;
+  border-radius: 1.5rem;
+  margin: 0.5em 0.5em;
+  font-family: "Oswald", sans-serif;
+}
+.rm-btn {
+  height: 2rem;
+  width: 5rem;
+  padding: 0;
+  margin: 0;
+  background-color: #b5b5b7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rm-btn:hover {
+  background-color: #ababac;
+}
+#rt-btn {
+  background-color: #f2b632;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#rt-btn:hover {
+  background-color: #e2a92f;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#h-mgr-btn {
+  background-color: #252839;
+  color: #d5d4d0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#h-mgr-btn:hover {
+  background-color: #393e57;
+}
+#chrg-btn {
+  background-color: #677077;
+  color: #e9e9e7;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#chrg-btn:hover {
+  background-color: #545b61;
+}
+.patient-board {
+  width: 98%;
+  height: 90%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.rm-num {
+  width: 5%;
+}
+.status-column {
+  width: 5%;
+}
+
+.a-dc-column {
+  width: 5%;
+}
+.patient-column {
+  width: 15%;
+}
+.doctor-column {
+  width: 15%;
+}
+.nurse-column {
+  width: 15%;
+}
+.tech-column {
+  width: 15%;
+}
+
+.info-column {
+  width: 25%;
+}
+
+.blue-rm {
+  background-color: #99b6de;
+}
+.patient-board th {
+  border: 1px solid black;
+  padding: 0px;
+  background: #b5b5b7;
+  height: 3.3em;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.patient-board td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 2px;
+  height: 3.3em;
+}
+
+#board-header {
+  background-color: null;
+  flex-direction: row;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 9px;
+}
